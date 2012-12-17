@@ -1,7 +1,7 @@
 {
 	"id":"Restock2",
 	"name":"Restock",
-	"version":2.0,
+	"version":.1,
 	"description": "Restocks the stations so that ships, weapons, and crew never run out.",
 	"gameVersion":"0.54a",
 	"author": "Thaago",
