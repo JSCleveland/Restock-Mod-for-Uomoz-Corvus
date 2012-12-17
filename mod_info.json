@@ -1,8 +1,8 @@
 {
-	"id":"Restock2",
-	"name":"Restock",
+	"id":"RestockU'sC",
+	"name":"Restock for Uomoz's Corvus",
 	"version":.1,
-	"description": "Restocks the stations so that ships, weapons, and crew never run out.",
+	"description": "Restocks the stations so that ships, weapons, and crew never run out.  Includes Uomoz's Corvus Ships, stations, and weapons.",
 	"gameVersion":"0.54a",
 	"author": "Thaago and MCWarhammer",
 	"totalConversion":"false",

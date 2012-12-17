@@ -131,40 +131,150 @@ public class RestockSpawnPoint extends BaseSpawnPoint {
     
     //Insterstellar Federation Lists
     private static String [] fShips = {
-    
+	"antares_Hull",
+	"ares_Hull",
+	"defiant_Hull",
+	"vixen_Hull",
+	"shogun_Hull",
+	"orion_Hull",
+	"scythe_Hull",
+	"dakota_Hull",
+	"titan_Hull",
+	"echo_Hull",
+	"rickshaw_Hull",
+	"toa_Hull",
+	"auria_Hull",
+	"mazerk_Hull",
+	"tahoe_Hull",
+	"trexel_Hull",
+	"ballista_Hull",
+	"mercury_Hull",
+	"yukon_Hull",
+	"zephyr_Hull",
+	"montana_Hull",
+	"albatross_Hull",
+	"helios_Hull",
     };
     private static String [] fWings = {
+    	"hornet_wing",
+	"draken_wing",
+	"tracer_wing",
+	"foxbat_wing",
     };
 
     //Junk Pirates Lists
-    private static String [] jShips = {
-   
+    private static String [] jShips = { 
+	"junk_pirates_orca_Hull",
+	"junk_pirates_dugong_Hull",
+	"junk_pirates_sickle_Hull",
+	"junk_pirates_hammer_Hull",
+	"junk_pirates_clam_Hull",
+	"junk_pirates_boxer_Hull",
+	"junk_pirates_boxenstein_Hull",
+	"junk_pirates_octopus_Hull",
+	"junk_pirates_langoustine_Hull",
+	"junk_pirates_scythe_Hull",
+	"junk_pirates_goat_Hull",
+	"junk_pirates_stoatA_Standard",
+	"junk_pirates_stoatB_Standard",
+	"junk_pirates_kraken_Hull",
+	"junk_pirates_turbot_Hull",
+	"junk_pirates_the_reaper_Hull",
     };
     private static String [] jWings = {
+	"junk_pirates_shard_wing",
+	"junk_pirates_spike_wing",
+	"junk_pirates_cleat_wing",
+	"junk_pirates_splinter_wing",
     };
 
     //Lotus Conglamorate Lists
     private static String [] lShips = {
+      "blizzard_Hull",
+      "ajax_Hull",
+      "hydra_Hull",
+      "rive_Hull",
+      "eventide_Hull",
+      "jackal_Hull",
+      "vanquish_Hull",
+      "stingray_Hull",
+      "arcadia_Hull",
+      "argos_Hull",
+      "aria_Hull",
+      "intrepid_Hull",
     };
     private static String [] lWings = {
+ 	"stigma_wing",
+	"javelin_wing",
+	"cutlass_wing",
+	"bolt_wing",
     };
 
     //Neutrino Corp Lists
     private static String [] nShips = {
+    	"neutrino_lathe_hull",
+	"neutrino_piledriver_hull",
+	"neutrino_relativity_hull",									
+	"neutrino_singularity_hull",
+	"neutrino_singularity_hull",									
+	"neutrino_nausicaa_hull",
+	"neutrino_nirvash_hull",
+	"neutrino_grinder_hull",									
+	"neutrino_hacksaw_hull",
+	"neutrino_hacksaw_hull",									
+	"neutrino_jackhammer_hull",
+	"neutrino_hildolfr_hull",
+	"neutrino_vice_hull",						
+	"neutrino_banshee_hull",	
+	"neutrino_colossus_hull",
+	"neutrino_adventure_hull",	
     };
     private static String [] nWings = {
+    	"neutrino_drohne_wing",
+	"neutrino_schwarzgeist_wing",
+	"neutrino_drache_wing",									
+	"neutrino_floh_wing",		
     };
 
     //Antediluvian Lists
     private static String [] dShips = {
+	"anchor_Antediluvian",
+	"athens_Antediluvian",
+	"atlantis_Antediluvian",
+	"atol_Antediluvian",
+	"azores_Antediluvian",
+	"bulwark_Antediluvian",
+	"calypso_Antediluvian",
+	"cape_Antediluvian",
+	"column_Antediluvian",
+	"critias_Antediluvian",
+	"deluge_Antediluvian",
+	"donovan_Antediluvian",
+	"forlorn_Antediluvian",
+	"gadeirus_Antediluvian",
+	"gibborim_Antediluvian",
+	"halyard_Antediluvian",
+	"nephilim_Antediluvian",
+	"oracle_Antediluvian",
+	"poseidon_Antediluvian",
+	"sentinel_Antediluvian",
+	"timaeus_Antediluvian",
     };
     private static String [] dWings = {
+	"persephone_wing_large",
+	"persephone_wing_small",
     };
     
     //Shadowyards Heavy Industries Lists
     private static String [] sShips = {
+	"ms_charybdis_Hull",
+	"ms_morningstar_Hull",
+	"ms_enlil_Hull",
+	"ms_seski_Hull"
     };
     private static String [] sWings = {
+    	"ms_skinwalker_wing",
+	"ms_neriad_wing"
     };
 
     // Nomads Lists
