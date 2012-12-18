@@ -300,7 +300,7 @@ public class RestockSpawnPoint extends BaseSpawnPoint {
 	    SectorEntityToken station = (SectorEntityToken) allStations.get(i);//get current station
 	    CargoAPI aCargo = station.getCargo();//get cargo
 	    if (aCargo.isFreeTransfer() == false){// only if the station is not the player station
-		if (station.getName().toString().equals("Serenity Station" == false){// Also not the Neutral Serenity Station
+		if (station.getName().toString().equals("Serenity Station" == false)){// Also not the Neutral Serenity Station
 			FleetDataAPI aMothFleet = aCargo.getMothballedShips();//get fleet data
                         
 			// All stations are restocked with crew and ships from aShips, aWings
@@ -403,8 +403,7 @@ public class RestockSpawnPoint extends BaseSpawnPoint {
 		Iterator iter = shipSet.iterator();
 		
 		while(iter.hasNext()) {
-		    mothFleet.addFleetMember(Global.getFactory().createFleetMember(
-										   FleetMemberType.SHIP,(String) iter.next()));
+		    mothFleet.addFleetMember(Global.getFactory().createFleetMember(FleetMemberType.SHIP,(String) iter.next()));
 		}
 	    }
 	    
