@@ -384,7 +384,7 @@ public class RestockSpawnPoint extends BaseSpawnPoint {
 	    }
 	    
 	    
-	    
+    
 	    private void restockShips(FleetDataAPI mothFleet, String[] ships){
 		Set shipSet = new HashSet(Arrays.asList(ships));
 		
